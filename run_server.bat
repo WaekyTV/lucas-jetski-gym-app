@@ -1,0 +1,5 @@
+@echo off
+echo Starting Fitquest Server...
+cd backend
+..\.venv\Scripts\uvicorn.exe server:app --reload
+pause
